@@ -21,6 +21,7 @@ https://github.com/zidou-kiyn/ZanaoRobot
 ![image](https://github.com/user-attachments/assets/7585d0c9-6ba1-4c4f-ab22-f290fd367b67)
 /heard_get.js如图：
 ![image](https://github.com/user-attachments/assets/4526c88d-794f-4577-99e0-26fe22af2625)
+
 关于用户Token的获取我用的工具是Charles，通过Charles抓取请求头，可自行搜索获取方式，实在不会的话可以留言
 关于学校ID，我发现赞噢后端对于默写学校可能用的不是官方缩写，不过这个也在请求头里可以看到
 
