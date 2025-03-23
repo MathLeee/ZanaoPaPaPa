@@ -39,7 +39,7 @@ except ImportError:
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # 用户令牌
-USER_TOKEN = "输入你的赞噢Token"
+USER_TOKEN = "改为你的赞噢Token"
 
 # CDN基础URL
 CDN_BASE_URL = "https://b1.cdn.zanao.com/"
@@ -1639,7 +1639,7 @@ def get_headers(js_result):
         'x-sc-cloud': '0',
         'x-sc-platform': 'windows',
         'x-sc-appid': 'wx3921ddb0258ff14f',
-        'x-sc-alias': 'cqu',
+        'x-sc-alias': '你学校对应的缩写ID,比如重庆大学,就改成cqu',
         'x-sc-od': USER_TOKEN,
         'content-type': 'application/x-www-form-urlencoded',
         'x-sc-ah': js_result["X-Sc-Ah"],

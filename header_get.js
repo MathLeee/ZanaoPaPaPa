@@ -176,14 +176,14 @@ function get_b(n, r, t) {
 }
 
 
-b = get_b('cqu' + "_" + m + "_" + td + "_1b6d2514354bc407afdd935f45521a8c")
+b = get_b('你学校对应的缩写ID,比如重庆大学,就改成cqu' + "_" + m + "_" + td + "_1b6d2514354bc407afdd935f45521a8c")
 
 function get_result() {
     result = {
         "X-Sc-Ah": b,
-        "X-Sc-Alias":'cqu',
+        "X-Sc-Alias":'你学校对应的缩写ID,比如重庆大学,就改成cqu',
         "X-Sc-Nd": m,
-        "X-Sc-Od": "ZzdpK2xNZWtvODY1ejUzWmxIYk9pb21sMFphVmxZU1hoNTFzcHJkbGM3Wi8zS25jdW94NTA3R1VvYktWckt4K2w2UFN2b3JNbTVlUG9LTFp1YXVsdklQUHlLWEhlbldueHRHRHA0T0psNm1ZYXNEWWxjMWozWXQya051MVk2RzhoYzIrMHI2aWpkckhwM3UrbEorNGpJTnB5WitEczFpV2VWZHFwUT09",
+        "X-Sc-Od": "改为你的赞噢Token",
         "X-Sc-Td": td
     }
     return result
