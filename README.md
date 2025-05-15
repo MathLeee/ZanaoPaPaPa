@@ -23,9 +23,11 @@ https://github.com/zidou-kiyn/ZanaoRobot
 ![image](https://github.com/user-attachments/assets/4526c88d-794f-4577-99e0-26fe22af2625)
 
 关于用户Token的获取我用的工具是Charles，通过Charles抓取请求头，可自行搜索获取方式，实在不会的话可以留言
-关于学校ID，我发现赞噢后端对于默写学校可能用的不是官方缩写，不过这个也在请求头里可以看到
+关于学校ID，我发现赞噢后端对于默认学校可能用的不是官方缩写，不过这个也在请求头里可以看到
 
-
+问题部分(解决issue):
+issue#2:
+2025.5.15根据用户反馈pdf生成部分仍有潜在字体问题
 
 
 
